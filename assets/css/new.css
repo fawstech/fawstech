@@ -1,0 +1,68 @@
+.service-text {
+  font-family: poppins;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ad1e1e;
+}
+
+.inter-font {
+  font-family: inter, sans-serif;
+}
+
+.poppins-font {
+  font-family: poppins, sans-serif;
+}
+
+.service-img {
+  width: auto;
+  height: 40%;
+}
+
+.card-width {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.card:hover {
+  border-color: #ad1e1e;
+}
+
+@media (max-width: 800px) {
+  .card-width {
+    margin-top: 8px;
+  }
+}
+
+.sticky-icon {
+  margin-bottom: 40px;
+  margin-left: 40px;
+  position: fixed;
+  z-index: 999px;
+}
+
+.sticky-whatsapp {
+  margin-bottom: 110px;
+  z-index: 100px;
+  background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+.footer-mail {
+  margin-top: 7px;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
