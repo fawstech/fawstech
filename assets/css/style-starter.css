@@ -15019,7 +15019,7 @@ nav ul li a:hover {
 }
 
 .w3l-main-slider .banner-view {
-  background: url(../images/bg1.png) no-repeat center;
+  background: url(../images/bg-2.png) no-repeat center;
   background-size: cover;
   min-height: 100vh;
   position: relative;
@@ -15030,12 +15030,12 @@ nav ul li a:hover {
 }
 
 .w3l-main-slider .banner-top1 {
-  background: url(/assets/images/bg1.png) no-repeat center;
+  background: url(/assets/images/bg-3.jpeg) no-repeat center;
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/bg1.png) no-repeat center;
+  background: url(../images/bg-2.png) no-repeat center;
   background-size: cover;
 }
 
@@ -16591,6 +16591,7 @@ h3.title-spe {
   font-size: 20px;
   font-weight: 600;
   margin: 15px 0;
+  color: var(--primary);
 }
 
 .contact-info-left {
@@ -16602,7 +16603,7 @@ h3.title-spe {
   padding: 2rem;
   background: #f8f9fa;
   background-color: var(--bg-white);
-  border: 1px solid var(--bg-border);
+  border: 2px solid var(--primary);
   border-radius: 6px;
 }
 

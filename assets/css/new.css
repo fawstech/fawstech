@@ -4,6 +4,12 @@
   font-weight: 700;
   color: #ad1e1e;
 }
+.ignite-text {
+  font-family: poppins;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f4686;
+}
 
 .inter-font {
   font-family: inter, sans-serif;
@@ -32,10 +38,16 @@
     margin-top: 8px;
   }
 }
+.card-width2 {
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 8px;
+  border-color: #ad1e1e;
+}
 
 .sticky-icon {
   margin-bottom: 40px;
-  margin-left: 40px;
+  margin-left: 80%;
   position: fixed;
   z-index: 999px;
 }
@@ -65,4 +77,45 @@
 .reveal.active {
   transform: translateY(0px);
   opacity: 1;
+}
+
+.specility-text {
+  color: black;
+  font-size: xx-large;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.font-mem {
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: expanded;
+}
+
+.card-courses {
+  border: 3px;
+  border-style: ridge;
+  border-color: #0f4686;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+}
+.card-courses:hover {
+  transform: translateY(-15px);
+}
+
+.btn-courses {
+  color: #fff;
+  background-color: #0f4686;
+  border-color: rgb(8, 44, 86) 6;
+}
+
+.btn-courses:hover {
+  color: #0f4686;
+  background-color: #fff;
+
+  border-color: #0f4686;
+}
+
+.courses-footer {
+  background-color: #0f4686;
 }
