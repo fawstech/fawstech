@@ -37,7 +37,11 @@ Author URL: http://w3layouts.com
 <body>
 
   <!--loader-->
-  
+  <div class="loader">
+    <div class="logo-container">
+      <img src="assets/images/loader-img.png" alt="Logo">
+    </div>
+  </div>
  
   <!--header-->
   <header id="site-header" class="fixed-top">
@@ -491,6 +495,20 @@ Author URL: http://w3layouts.com
 </svg>
 </i></a>
      </div>
+     <script>
+   window.addEventListener('load', function() {
+  var loader = document.querySelector('.loader');
+
+  // Show the loader
+  loader.classList.remove('loader-hidden');
+
+  // Set a timeout to hide the loader after 1 second
+  setTimeout(function() {
+    loader.classList.add('loader-hidden');
+  }, 100); // 1000 milliseconds = 1 second
+});
+
+   </script>
     <script>
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function () {
